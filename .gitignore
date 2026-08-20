@@ -1,0 +1,13 @@
+node_modules/
+.next/
+out/
+coverage/
+*.py[cod]
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
