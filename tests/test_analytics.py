@@ -71,3 +71,10 @@ def test_artifact_reproducibility(tmp_path: Path):
     build(source, first)
     build(source, second)
     assert json.loads(first.read_text()) == json.loads(second.read_text())
+
+
+def test_committed_artifact_matches_source(tmp_path: Path):
+    committed = json.loads(Path("public/analytics.json").read_text(encoding="utf-8"))
+    regenerated_path = tmp_path / "analytics.json"
+    build(Path("data/sales.csv"), regenerated_path)
+    assert json.loads(regenerated_path.read_text(encoding="utf-8")) == committed
