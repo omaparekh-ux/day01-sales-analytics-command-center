@@ -1,0 +1,123 @@
+{
+  "anomalies": [
+    {"is_unusual": false, "margin_pct": 29.75, "margin_pct_robust_z": -0.73, "month": "2024-01", "revenue": 4179.39, "revenue_robust_z": -0.49},
+    {"is_unusual": true, "margin_pct": 34.64, "margin_pct_robust_z": 0.62, "month": "2024-02", "revenue": 23344.17, "revenue_robust_z": 5.77},
+    {"is_unusual": false, "margin_pct": 38.46, "margin_pct_robust_z": 1.67, "month": "2024-03", "revenue": 2463.24, "revenue_robust_z": -1.05},
+    {"is_unusual": false, "margin_pct": 31.84, "margin_pct_robust_z": -0.15, "month": "2024-04", "revenue": 3745.19, "revenue_robust_z": -0.63},
+    {"is_unusual": false, "margin_pct": 37.94, "margin_pct_robust_z": 1.52, "month": "2024-05", "revenue": 4456.67, "revenue_robust_z": -0.4},
+    {"is_unusual": false, "margin_pct": 34.43, "margin_pct_robust_z": 0.56, "month": "2024-06", "revenue": 3251.53, "revenue_robust_z": -0.8},
+    {"is_unusual": false, "margin_pct": 29.96, "margin_pct_robust_z": -0.67, "month": "2024-07", "revenue": 5941.89, "revenue_robust_z": 0.08},
+    {"is_unusual": false, "margin_pct": 28.48, "margin_pct_robust_z": -1.08, "month": "2024-08", "revenue": 2841.28, "revenue_robust_z": -0.93},
+    {"is_unusual": false, "margin_pct": 31.57, "margin_pct_robust_z": -0.23, "month": "2024-09", "revenue": 9474.41, "revenue_robust_z": 1.24},
+    {"is_unusual": false, "margin_pct": 28.77, "margin_pct_robust_z": -1.0, "month": "2024-10", "revenue": 3855.01, "revenue_robust_z": -0.6},
+    {"is_unusual": false, "margin_pct": 30.01, "margin_pct_robust_z": -0.66, "month": "2024-11", "revenue": 5431.25, "revenue_robust_z": -0.08},
+    {"is_unusual": false, "margin_pct": 34.86, "margin_pct_robust_z": 0.68, "month": "2024-12", "revenue": 6257.83, "revenue_robust_z": 0.19},
+    {"is_unusual": false, "margin_pct": 29.84, "margin_pct_robust_z": -0.7, "month": "2025-01", "revenue": 6475.79, "revenue_robust_z": 0.26},
+    {"is_unusual": false, "margin_pct": 40.1, "margin_pct_robust_z": 2.12, "month": "2025-02", "revenue": 8673.72, "revenue_robust_z": 0.98},
+    {"is_unusual": false, "margin_pct": 32.96, "margin_pct_robust_z": 0.15, "month": "2025-03", "revenue": 6781.66, "revenue_robust_z": 0.36},
+    {"is_unusual": false, "margin_pct": 37.21, "margin_pct_robust_z": 1.32, "month": "2025-04", "revenue": 736.38, "revenue_robust_z": -1.62},
+    {"is_unusual": false, "margin_pct": 30.71, "margin_pct_robust_z": -0.46, "month": "2025-05", "revenue": 8690.12, "revenue_robust_z": 0.98},
+    {"is_unusual": false, "margin_pct": 33.72, "margin_pct_robust_z": 0.36, "month": "2025-06", "revenue": 7876.87, "revenue_robust_z": 0.72}
+  ],
+  "dimensions": {
+    "category": [
+      {"category":"Technology","discount_leakage":8682.32,"margin_pct":34.63,"orders":44,"profit":26194.71,"revenue":75646.83},
+      {"category":"Office","discount_leakage":3277.07,"margin_pct":29.73,"orders":33,"profit":9933.78,"revenue":33407.94},
+      {"category":"Accessories","discount_leakage":705.71,"margin_pct":35.0,"orders":23,"profit":1897.79,"revenue":5421.64}
+    ],
+    "channel": [
+      {"channel":"Online","discount_leakage":4460.32,"margin_pct":35.49,"orders":48,"profit":21455.62,"revenue":60461.55},
+      {"channel":"Distributor","discount_leakage":6145.06,"margin_pct":27.79,"orders":29,"profit":8273.57,"revenue":29770.44},
+      {"channel":"Retail","discount_leakage":2059.72,"margin_pct":34.22,"orders":23,"profit":8297.09,"revenue":24244.42}
+    ],
+    "region": [
+      {"discount_leakage":6878.5,"margin_pct":33.06,"orders":40,"profit":19754.67,"region":"West","revenue":59760.04},
+      {"discount_leakage":2284.73,"margin_pct":34.22,"orders":28,"profit":9213.91,"region":"South","revenue":26928.15},
+      {"discount_leakage":1456.72,"margin_pct":34.98,"orders":20,"profit":5428.33,"region":"East","revenue":15519.15},
+      {"discount_leakage":2045.14,"margin_pct":29.58,"orders":12,"profit":3629.38,"region":"North","revenue":12269.08}
+    ],
+    "segment": [
+      {"discount_leakage":5447.82,"margin_pct":34.28,"orders":50,"profit":16816.69,"revenue":49059.87,"segment":"Consumer"},
+      {"discount_leakage":4540.4,"margin_pct":33.47,"orders":31,"profit":16167.41,"revenue":48297.95,"segment":"SMB"},
+      {"discount_leakage":2676.87,"margin_pct":29.45,"orders":19,"profit":5042.19,"revenue":17118.6,"segment":"Enterprise"}
+    ]
+  },
+  "health": {"status":"healthy","validated_at_build":true,"validated_rows":100},
+  "kpis": {"aov":1144.76416443,"avg_discount_pct":10.0747,"margin_pct":33.21757234,"orders":100,"profit":38026.286443,"revenue":114476.416443,"units":378},
+  "monthly": [
+    {"discount_leakage":613.51,"margin_pct":29.75,"mom_profit_pct":0.0,"mom_revenue_pct":0.0,"month":"2024-01","profit":1243.22,"revenue":4179.39},
+    {"discount_leakage":2242.28,"margin_pct":34.64,"mom_profit_pct":550.5,"mom_revenue_pct":458.55,"month":"2024-02","profit":8087.14,"revenue":23344.17},
+    {"discount_leakage":196.71,"margin_pct":38.46,"mom_profit_pct":-88.29,"mom_revenue_pct":-89.45,"month":"2024-03","profit":947.26,"revenue":2463.24},
+    {"discount_leakage":338.92,"margin_pct":31.84,"mom_profit_pct":25.88,"mom_revenue_pct":52.04,"month":"2024-04","profit":1192.36,"revenue":3745.19},
+    {"discount_leakage":446.64,"margin_pct":37.94,"mom_profit_pct":41.81,"mom_revenue_pct":19.0,"month":"2024-05","profit":1690.9,"revenue":4456.67},
+    {"discount_leakage":375.47,"margin_pct":34.43,"mom_profit_pct":-33.79,"mom_revenue_pct":-27.04,"month":"2024-06","profit":1119.52,"revenue":3251.53},
+    {"discount_leakage":1461.59,"margin_pct":29.96,"mom_profit_pct":59.02,"mom_revenue_pct":82.74,"month":"2024-07","profit":1780.21,"revenue":5941.89},
+    {"discount_leakage":428.43,"margin_pct":28.48,"mom_profit_pct":-54.55,"mom_revenue_pct":-52.18,"month":"2024-08","profit":809.12,"revenue":2841.28},
+    {"discount_leakage":1351.06,"margin_pct":31.57,"mom_profit_pct":269.63,"mom_revenue_pct":233.46,"month":"2024-09","profit":2990.77,"revenue":9474.41},
+    {"discount_leakage":472.96,"margin_pct":28.77,"mom_profit_pct":-62.91,"mom_revenue_pct":-59.31,"month":"2024-10","profit":1109.18,"revenue":3855.01},
+    {"discount_leakage":483.93,"margin_pct":30.01,"mom_profit_pct":46.94,"mom_revenue_pct":40.89,"month":"2024-11","profit":1629.85,"revenue":5431.25},
+    {"discount_leakage":404.76,"margin_pct":34.86,"mom_profit_pct":33.86,"mom_revenue_pct":15.22,"month":"2024-12","profit":2181.7,"revenue":6257.83},
+    {"discount_leakage":493.64,"margin_pct":29.84,"mom_profit_pct":-11.43,"mom_revenue_pct":3.48,"month":"2025-01","profit":1932.36,"revenue":6475.79},
+    {"discount_leakage":281.91,"margin_pct":40.1,"mom_profit_pct":80.0,"mom_revenue_pct":33.94,"month":"2025-02","profit":3478.23,"revenue":8673.72},
+    {"discount_leakage":866.39,"margin_pct":32.96,"mom_profit_pct":-35.73,"mom_revenue_pct":-21.81,"month":"2025-03","profit":2235.4,"revenue":6781.66},
+    {"discount_leakage":102.9,"margin_pct":37.21,"mom_profit_pct":-87.74,"mom_revenue_pct":-89.14,"month":"2025-04","profit":274.02,"revenue":736.38},
+    {"discount_leakage":1227.54,"margin_pct":30.71,"mom_profit_pct":873.92,"mom_revenue_pct":1080.11,"month":"2025-05","profit":2668.74,"revenue":8690.12},
+    {"discount_leakage":876.47,"margin_pct":33.72,"mom_profit_pct":-0.47,"mom_revenue_pct":-9.36,"month":"2025-06","profit":2656.29,"revenue":7876.87}
+  ],
+  "pareto": [
+    {"cumulative_share_pct":48.24,"product":"Laptop Pro","revenue":55222.34,"revenue_share_pct":48.24},
+    {"cumulative_share_pct":63.94,"product":"Standing Desk","revenue":17978.18,"revenue_share_pct":15.7},
+    {"cumulative_share_pct":74.61,"product":"Monitor 27","revenue":12207.22,"revenue_share_pct":10.66},
+    {"cumulative_share_pct":83.72,"product":"Ergo Chair","revenue":10426.7,"revenue_share_pct":9.11},
+    {"cumulative_share_pct":89.51,"product":"Docking Station","revenue":6629.55,"revenue_share_pct":5.79},
+    {"cumulative_share_pct":92.63,"product":"Webcam","revenue":3575.23,"revenue_share_pct":3.12},
+    {"cumulative_share_pct":94.48,"product":"Headset","revenue":2114.44,"revenue_share_pct":1.85},
+    {"cumulative_share_pct":95.86,"product":"Keyboard","revenue":1587.71,"revenue_share_pct":1.39},
+    {"cumulative_share_pct":97.11,"product":"Desk Lamp","revenue":1427.84,"revenue_share_pct":1.25},
+    {"cumulative_share_pct":98.3,"product":"Mouse","revenue":1355.56,"revenue_share_pct":1.18},
+    {"cumulative_share_pct":99.3,"product":"Power Bank","revenue":1153.22,"revenue_share_pct":1.01},
+    {"cumulative_share_pct":100.0,"product":"USB Hub","revenue":798.42,"revenue_share_pct":0.7}
+  ],
+  "products": [
+    {"category":"Technology","discount_leakage":6741.12,"margin_pct":35.4,"product":"Laptop Pro","profit":19549.68,"revenue":55222.34,"revenue_share_pct":48.24},
+    {"category":"Office","discount_leakage":1465.96,"margin_pct":27.56,"product":"Standing Desk","profit":4954.9,"revenue":17978.18,"revenue_share_pct":15.7},
+    {"category":"Technology","discount_leakage":1249.76,"margin_pct":28.63,"product":"Monitor 27","profit":3494.83,"revenue":12207.22,"revenue_share_pct":10.66},
+    {"category":"Office","discount_leakage":1188.31,"margin_pct":31.18,"product":"Ergo Chair","profit":3251.12,"revenue":10426.7,"revenue_share_pct":9.11},
+    {"category":"Technology","discount_leakage":554.22,"margin_pct":39.24,"product":"Docking Station","profit":2601.73,"revenue":6629.55,"revenue_share_pct":5.79},
+    {"category":"Office","discount_leakage":435.21,"margin_pct":37.64,"product":"Webcam","profit":1345.79,"revenue":3575.23,"revenue_share_pct":3.12},
+    {"category":"Accessories","discount_leakage":242.34,"margin_pct":41.22,"product":"Headset","profit":871.61,"revenue":2114.44,"revenue_share_pct":1.85},
+    {"category":"Technology","discount_leakage":137.23,"margin_pct":34.54,"product":"Keyboard","profit":548.46,"revenue":1587.71,"revenue_share_pct":1.39},
+    {"category":"Office","discount_leakage":187.58,"margin_pct":26.75,"product":"Desk Lamp","profit":381.98,"revenue":1427.84,"revenue_share_pct":1.25},
+    {"category":"Accessories","discount_leakage":241.9,"margin_pct":36.52,"product":"Mouse","profit":495.05,"revenue":1355.56,"revenue_share_pct":1.18},
+    {"category":"Accessories","discount_leakage":148.02,"margin_pct":23.48,"product":"Power Bank","profit":270.78,"revenue":1153.22,"revenue_share_pct":1.01},
+    {"category":"Accessories","discount_leakage":73.45,"margin_pct":32.61,"product":"USB Hub","profit":260.35,"revenue":798.42,"revenue_share_pct":0.7}
+  ],
+  "recommendations": [
+    {"detail":"Standing Desk combines high revenue with only 27.6% margin. Review discounting and unit economics before scaling volume.","title":"Protect high-value margin"},
+    {"detail":"Laptop Pro has the largest absolute discount leakage at $6,741. Test tighter discount guardrails or targeted offers.","title":"Target discount leakage"},
+    {"detail":"2024-02 is statistically unusual on revenue or margin. Trace campaign, pricing, mix and supply events before extrapolating the movement.","title":"Investigate unusual movement"},
+    {"detail":"The top 3 products account for approximately 74.6% of revenue. Prioritize these products for availability and pricing reviews.","title":"Focus the commercial portfolio"}
+  ],
+  "schema_version":"1.1",
+  "source":{"file":"data/sales.csv","rows":100,"sha256":"ced001f75444287af8715131bffa3bd1031bce6f39895286ba9154ce29e3e47a"},
+  "yoy": [
+    {"margin_pct":29.75,"month":"2024-01","profit":1243.22,"revenue":4179.39,"yoy_profit_pct":null,"yoy_revenue_pct":null},
+    {"margin_pct":34.64,"month":"2024-02","profit":8087.14,"revenue":23344.17,"yoy_profit_pct":null,"yoy_revenue_pct":null},
+    {"margin_pct":38.46,"month":"2024-03","profit":947.26,"revenue":2463.24,"yoy_profit_pct":null,"yoy_revenue_pct":null},
+    {"margin_pct":31.84,"month":"2024-04","profit":1192.36,"revenue":3745.19,"yoy_profit_pct":null,"yoy_revenue_pct":null},
+    {"margin_pct":37.94,"month":"2024-05","profit":1690.9,"revenue":4456.67,"yoy_profit_pct":null,"yoy_revenue_pct":null},
+    {"margin_pct":34.43,"month":"2024-06","profit":1119.52,"revenue":3251.53,"yoy_profit_pct":null,"yoy_revenue_pct":null},
+    {"margin_pct":29.96,"month":"2024-07","profit":1780.21,"revenue":5941.89,"yoy_profit_pct":null,"yoy_revenue_pct":null},
+    {"margin_pct":28.48,"month":"2024-08","profit":809.12,"revenue":2841.28,"yoy_profit_pct":null,"yoy_revenue_pct":null},
+    {"margin_pct":31.57,"month":"2024-09","profit":2990.77,"revenue":9474.41,"yoy_profit_pct":null,"yoy_revenue_pct":null},
+    {"margin_pct":28.77,"month":"2024-10","profit":1109.18,"revenue":3855.01,"yoy_profit_pct":null,"yoy_revenue_pct":null},
+    {"margin_pct":30.01,"month":"2024-11","profit":1629.85,"revenue":5431.25,"yoy_profit_pct":null,"yoy_revenue_pct":null},
+    {"margin_pct":34.86,"month":"2024-12","profit":2181.7,"revenue":6257.83,"yoy_profit_pct":null,"yoy_revenue_pct":null},
+    {"margin_pct":29.84,"month":"2025-01","profit":1932.36,"revenue":6475.79,"yoy_profit_pct":55.43,"yoy_revenue_pct":54.95},
+    {"margin_pct":40.1,"month":"2025-02","profit":3478.23,"revenue":8673.72,"yoy_profit_pct":-56.99,"yoy_revenue_pct":-62.84},
+    {"margin_pct":32.96,"month":"2025-03","profit":2235.4,"revenue":6781.66,"yoy_profit_pct":135.99,"yoy_revenue_pct":175.32},
+    {"margin_pct":37.21,"month":"2025-04","profit":274.02,"revenue":736.38,"yoy_profit_pct":-77.02,"yoy_revenue_pct":-80.34},
+    {"margin_pct":30.71,"month":"2025-05","profit":2668.74,"revenue":8690.12,"yoy_profit_pct":57.83,"yoy_revenue_pct":94.99},
+    {"margin_pct":33.72,"month":"2025-06","profit":2656.29,"revenue":7876.87,"yoy_profit_pct":137.27,"yoy_revenue_pct":142.25}
+  ]
+}
