@@ -26,7 +26,7 @@ The Python layer is the source of truth. The frontend never invents business con
 
 ## Data
 
-The dataset is a professionally designed synthetic retail transaction dataset covering **250 orders from January 2024 through June 2025**. It is used because the project needs a reproducible dataset with commercially meaningful dimensions without exposing proprietary customer data.
+The dataset is a professionally designed synthetic retail transaction dataset covering **100 orders from January 2024 through June 2025**. It is used because the project needs a reproducible dataset with commercially meaningful dimensions without exposing proprietary customer data.
 
 Deliberately simulated relationships include varying category mix, region/channel/segment composition, product-level price/cost bands, realistic discount dispersion and calendar variation. These relationships are documented so they are not mistaken for external market facts. The analysis is deterministic from the committed CSV and seed-controlled generator.
 
