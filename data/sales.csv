@@ -1,0 +1,101 @@
+order_id,order_date,region,channel,segment,category,product,units,unit_price,discount_pct,unit_cost
+ORD-002185,2024-01-17 00:00:00+00:00,East,Distributor,SMB,Technology,Monitor 27,3,315.97,0.1086,195.68
+ORD-005065,2024-01-17 00:00:00+00:00,West,Distributor,SMB,Office,Ergo Chair,2,430.53,0.1439,265.22
+ORD-007365,2024-01-24 00:00:00+00:00,North,Online,Consumer,Office,Webcam,6,117.49,0.0395,61.83
+ORD-003650,2024-01-26 00:00:00+00:00,West,Online,Consumer,Accessories,USB Hub,3,44.43,0.1115,26.32
+ORD-009879,2024-01-30 00:00:00+00:00,North,Retail,Enterprise,Office,Ergo Chair,5,429.14,0.1603,273.75
+ORD-006866,2024-02-04 00:00:00+00:00,South,Online,SMB,Accessories,USB Hub,8,41.84,0.0893,26.28
+ORD-004220,2024-02-06 00:00:00+00:00,East,Retail,Consumer,Technology,Docking Station,2,162.48,0.0825,98.64
+ORD-000961,2024-02-07 00:00:00+00:00,East,Online,SMB,Technology,Monitor 27,2,312.69,0.1069,193.03
+ORD-001846,2024-02-07 00:00:00+00:00,East,Online,SMB,Technology,Laptop Pro,7,934.68,0.064,541.64
+ORD-011103,2024-02-11 00:00:00+00:00,East,Distributor,Consumer,Office,Webcam,4,109.74,0.2179,61.62
+ORD-010011,2024-02-12 00:00:00+00:00,West,Online,Enterprise,Technology,Laptop Pro,6,974.72,0.1554,566.2
+ORD-008858,2024-02-15 00:00:00+00:00,West,Online,Consumer,Technology,Laptop Pro,2,925.95,0.0525,529.99
+ORD-007496,2024-02-18 00:00:00+00:00,West,Retail,Consumer,Technology,Laptop Pro,3,1066.15,0.0,585.25
+ORD-010838,2024-02-19 00:00:00+00:00,West,Online,SMB,Technology,Docking Station,10,176.04,0.0,100.17
+ORD-000077,2024-02-23 00:00:00+00:00,South,Online,Consumer,Accessories,Power Bank,2,82.22,0.0182,55.15
+ORD-006703,2024-02-24 00:00:00+00:00,West,Distributor,Enterprise,Office,Standing Desk,8,562.02,0.1324,387.57
+ORD-011019,2024-03-01 00:00:00+00:00,North,Retail,Consumer,Technology,Laptop Pro,2,970.4,0.0775,534.06
+ORD-011929,2024-03-10 00:00:00+00:00,West,Distributor,SMB,Accessories,Mouse,2,56.73,0.1967,29.83
+ORD-008399,2024-03-19 00:00:00+00:00,West,Online,Consumer,Office,Standing Desk,1,605.69,0.0396,388.2
+ORD-004296,2024-04-04 00:00:00+00:00,South,Online,Consumer,Accessories,Power Bank,4,81.87,0.1122,56.07
+ORD-010116,2024-04-10 00:00:00+00:00,South,Online,SMB,Office,Standing Desk,3,563.13,0.0213,386.01
+ORD-000132,2024-04-28 00:00:00+00:00,West,Online,Enterprise,Office,Ergo Chair,4,465.95,0.1297,268.0
+ORD-003852,2024-04-30 00:00:00+00:00,South,Online,Consumer,Technology,Docking Station,1,203.44,0.1202,98.52
+ORD-009798,2024-05-15 00:00:00+00:00,South,Retail,Consumer,Office,Desk Lamp,2,68.39,0.078,44.83
+ORD-004563,2024-05-21 00:00:00+00:00,South,Online,Consumer,Technology,Laptop Pro,4,939.75,0.0826,523.12
+ORD-011914,2024-05-26 00:00:00+00:00,South,Online,Enterprise,Accessories,Mouse,7,55.66,0.1456,29.59
+ORD-011489,2024-05-27 00:00:00+00:00,South,Retail,Enterprise,Accessories,Mouse,5,54.33,0.1534,29.78
+ORD-010450,2024-05-28 00:00:00+00:00,South,Retail,SMB,Accessories,USB Hub,4,44.43,0.0398,28.49
+ORD-006293,2024-05-29 00:00:00+00:00,West,Distributor,Consumer,Accessories,Power Bank,2,84.27,0.1187,56.82
+ORD-001982,2024-06-03 00:00:00+00:00,South,Online,Consumer,Technology,Laptop Pro,1,912.21,0.0956,558.22
+ORD-004601,2024-06-05 00:00:00+00:00,East,Online,Enterprise,Office,Webcam,7,119.47,0.0486,65.83
+ORD-000766,2024-06-10 00:00:00+00:00,North,Online,Enterprise,Office,Desk Lamp,3,67.76,0.1206,46.12
+ORD-008487,2024-06-12 00:00:00+00:00,West,Distributor,Consumer,Technology,Docking Station,5,172.66,0.1371,101.43
+ORD-004790,2024-06-16 00:00:00+00:00,East,Online,Enterprise,Accessories,Headset,5,94.04,0.1017,50.51
+ORD-005791,2024-06-19 00:00:00+00:00,West,Distributor,SMB,Accessories,Power Bank,4,85.43,0.1666,53.73
+ORD-010280,2024-07-05 00:00:00+00:00,West,Distributor,Consumer,Technology,Laptop Pro,6,987.99,0.2315,539.98
+ORD-008447,2024-07-09 00:00:00+00:00,South,Online,Enterprise,Office,Desk Lamp,5,67.26,0.0652,45.19
+ORD-007760,2024-07-12 00:00:00+00:00,East,Retail,Consumer,Technology,Monitor 27,3,325.8,0.0635,198.59
+ORD-010892,2024-07-16 00:00:00+00:00,South,Online,Consumer,Technology,Keyboard,2,80.92,0.0326,50.04
+ORD-003017,2024-08-06 00:00:00+00:00,West,Online,Consumer,Technology,Monitor 27,6,294.12,0.1357,193.95
+ORD-002406,2024-08-14 00:00:00+00:00,South,Distributor,Consumer,Accessories,Mouse,5,48.74,0.1287,29.67
+ORD-011824,2024-08-17 00:00:00+00:00,East,Online,SMB,Technology,Keyboard,4,83.55,0.0088,50.59
+ORD-001285,2024-08-21 00:00:00+00:00,West,Distributor,SMB,Office,Webcam,5,113.88,0.165,63.92
+ORD-001283,2024-08-24 00:00:00+00:00,South,Distributor,SMB,Office,Webcam,3,119.23,0.1697,66.05
+ORD-000982,2024-09-01 00:00:00+00:00,West,Online,SMB,Office,Standing Desk,4,603.06,0.0,372.02
+ORD-006776,2024-09-12 00:00:00+00:00,South,Online,Consumer,Technology,Laptop Pro,2,953.25,0.0126,552.15
+ORD-001624,2024-09-15 00:00:00+00:00,North,Distributor,SMB,Technology,Laptop Pro,5,900.51,0.2318,541.36
+ORD-010834,2024-09-19 00:00:00+00:00,East,Retail,Enterprise,Accessories,USB Hub,3,44.16,0.0887,26.95
+ORD-007154,2024-09-19 00:00:00+00:00,East,Retail,Enterprise,Office,Desk Lamp,3,73.9,0.1697,45.47
+ORD-005390,2024-09-20 00:00:00+00:00,West,Distributor,SMB,Technology,Monitor 27,5,330.0,0.1418,193.44
+ORD-008392,2024-10-05 00:00:00+00:00,South,Distributor,Consumer,Office,Standing Desk,3,547.47,0.1518,385.84
+ORD-003488,2024-10-07 00:00:00+00:00,West,Retail,Consumer,Office,Ergo Chair,3,421.06,0.0613,265.51
+ORD-011702,2024-10-10 00:00:00+00:00,West,Online,Consumer,Technology,Docking Station,2,187.16,0.0741,101.36
+ORD-001340,2024-10-15 00:00:00+00:00,South,Online,SMB,Technology,Docking Station,4,180.76,0.0974,99.16
+ORD-008521,2024-10-20 00:00:00+00:00,East,Distributor,Consumer,Accessories,USB Hub,2,46.83,0.1054,27.03
+ORD-007667,2024-10-24 00:00:00+00:00,West,Distributor,SMB,Office,Desk Lamp,3,77.12,0.165,46.12
+ORD-000869,2024-11-04 00:00:00+00:00,North,Online,SMB,Office,Standing Desk,4,563.06,0.0854,366.82
+ORD-007840,2024-11-08 00:00:00+00:00,South,Online,SMB,Technology,Docking Station,3,192.88,0.0804,101.73
+ORD-008114,2024-11-14 00:00:00+00:00,West,Online,SMB,Technology,Monitor 27,6,272.96,0.0418,185.63
+ORD-009565,2024-11-15 00:00:00+00:00,East,Retail,Consumer,Technology,Monitor 27,2,309.83,0.0948,195.54
+ORD-006026,2024-11-23 00:00:00+00:00,West,Distributor,Consumer,Office,Standing Desk,1,538.93,0.1401,373.27
+ORD-002987,2024-11-30 00:00:00+00:00,North,Distributor,Enterprise,Accessories,Mouse,5,57.59,0.1471,30.16
+ORD-000215,2024-12-08 00:00:00+00:00,West,Retail,Consumer,Office,Standing Desk,2,575.87,0.0171,373.64
+ORD-001069,2024-12-12 00:00:00+00:00,North,Online,Consumer,Accessories,Mouse,1,55.64,0.0752,29.39
+ORD-002408,2024-12-26 00:00:00+00:00,South,Retail,Consumer,Technology,Docking Station,3,183.92,0.053,105.22
+ORD-006900,2024-12-26 00:00:00+00:00,West,Retail,SMB,Technology,Laptop Pro,5,875.54,0.0757,544.85
+ORD-005732,2024-12-31 00:00:00+00:00,West,Online,SMB,Accessories,Headset,5,105.15,0.0385,51.91
+ORD-000705,2025-01-03 00:00:00+00:00,South,Online,Consumer,Technology,Keyboard,3,88.6,0.1057,53.51
+ORD-001352,2025-01-04 00:00:00+00:00,West,Distributor,Enterprise,Accessories,Mouse,4,58.86,0.1838,29.07
+ORD-011476,2025-01-15 00:00:00+00:00,North,Online,SMB,Office,Standing Desk,2,593.79,0.0951,384.64
+ORD-005512,2025-01-17 00:00:00+00:00,East,Online,SMB,Office,Ergo Chair,3,441.0,0.0668,268.62
+ORD-004413,2025-01-27 00:00:00+00:00,West,Retail,Enterprise,Office,Webcam,5,97.97,0.1226,63.54
+ORD-008401,2025-01-27 00:00:00+00:00,South,Online,SMB,Office,Standing Desk,6,577.96,0.0464,395.63
+ORD-010386,2025-02-05 00:00:00+00:00,South,Online,Consumer,Technology,Laptop Pro,3,928.83,0.0223,539.55
+ORD-010119,2025-02-07 00:00:00+00:00,South,Distributor,Enterprise,Office,Desk Lamp,3,68.88,0.1229,45.72
+ORD-008168,2025-02-09 00:00:00+00:00,West,Online,SMB,Technology,Laptop Pro,6,993.75,0.0326,573.28
+ORD-003465,2025-03-17 00:00:00+00:00,West,Distributor,Consumer,Technology,Laptop Pro,2,1056.94,0.2006,530.4
+ORD-007878,2025-03-17 00:00:00+00:00,West,Retail,Consumer,Technology,Monitor 27,7,279.68,0.0701,196.63
+ORD-009194,2025-03-20 00:00:00+00:00,South,Online,Enterprise,Technology,Docking Station,5,170.54,0.0669,101.33
+ORD-006046,2025-03-26 00:00:00+00:00,South,Online,Consumer,Office,Ergo Chair,5,407.92,0.0699,248.59
+ORD-005383,2025-03-28 00:00:00+00:00,West,Distributor,Consumer,Accessories,Headset,7,97.73,0.1542,51.35
+ORD-002974,2025-04-20 00:00:00+00:00,West,Distributor,Consumer,Technology,Keyboard,4,85.54,0.1598,52.27
+ORD-005624,2025-04-21 00:00:00+00:00,East,Retail,Consumer,Office,Webcam,4,124.28,0.097,63.32
+ORD-002593,2025-05-01 00:00:00+00:00,East,Distributor,Consumer,Technology,Docking Station,2,193.68,0.2266,99.09
+ORD-006352,2025-05-01 00:00:00+00:00,West,Distributor,SMB,Technology,Laptop Pro,7,922.86,0.1281,552.81
+ORD-007956,2025-05-07 00:00:00+00:00,East,Distributor,Enterprise,Technology,Docking Station,1,207.03,0.1533,99.47
+ORD-003692,2025-05-07 00:00:00+00:00,East,Online,Consumer,Technology,Monitor 27,6,282.79,0.1101,188.75
+ORD-002911,2025-05-12 00:00:00+00:00,West,Online,Consumer,Technology,Keyboard,4,91.68,0.0567,53.58
+ORD-009585,2025-05-12 00:00:00+00:00,West,Online,SMB,Technology,Keyboard,3,84.74,0.1001,50.96
+ORD-007026,2025-05-14 00:00:00+00:00,East,Retail,Consumer,Accessories,Power Bank,2,75.01,0.0668,55.98
+ORD-001714,2025-05-19 00:00:00+00:00,West,Online,Consumer,Office,Webcam,1,116.19,0.0701,62.44
+ORD-008558,2025-05-31 00:00:00+00:00,West,Retail,SMB,Office,Desk Lamp,4,69.84,0.1048,44.99
+ORD-008072,2025-06-02 00:00:00+00:00,East,Distributor,Consumer,Accessories,Power Bank,2,74.52,0.1431,53.67
+ORD-007521,2025-06-02 00:00:00+00:00,North,Online,Consumer,Accessories,Headset,4,94.09,0.0645,53.1
+ORD-007857,2025-06-04 00:00:00+00:00,North,Retail,Enterprise,Accessories,Headset,3,100.12,0.1482,52.96
+ORD-007342,2025-06-10 00:00:00+00:00,South,Retail,Consumer,Technology,Laptop Pro,4,968.11,0.1262,546.35
+ORD-006859,2025-06-11 00:00:00+00:00,North,Online,SMB,Technology,Docking Station,2,178.41,0.0956,99.33
+ORD-006380,2025-06-15 00:00:00+00:00,South,Distributor,Consumer,Office,Ergo Chair,2,426.56,0.1608,262.78
+ORD-004386,2025-06-24 00:00:00+00:00,West,Online,Consumer,Technology,Monitor 27,5,315.93,0.059,199.77
+ORD-006840,2025-06-28 00:00:00+00:00,West,Retail,Consumer,Office,Ergo Chair,3,421.85,0.0262,277.83
