@@ -26,7 +26,7 @@ The Python layer is the source of truth. The frontend never invents business con
 
 ## Data
 
-The dataset is a professionally designed synthetic retail transaction dataset covering **1,000 orders from January 2024 through June 2025**. It is used because the project needs a reproducible dataset with commercially meaningful dimensions without exposing proprietary customer data.
+The dataset is a professionally designed synthetic retail transaction dataset covering **250 orders from January 2024 through June 2025**. It is used because the project needs a reproducible dataset with commercially meaningful dimensions without exposing proprietary customer data.
 
 Deliberately simulated relationships include varying category mix, region/channel/segment composition, product-level price/cost bands, realistic discount dispersion and calendar variation. These relationships are documented so they are not mistaken for external market facts. The analysis is deterministic from the committed CSV and seed-controlled generator.
 
@@ -98,7 +98,7 @@ GitHub Actions runs the Python artifact build/tests/ruff checks and the frontend
 
 ## Product design
 
-The command center is intentionally dark, dense and executive-focused. The interface supports date/dimension filtering, revenue/profit/margin views, reset behavior, loading/error/empty states, keyboard-visible focus, responsive layouts and tooltips on trend points. The pipeline-health badge is derived from artifact metadata and loaded-row verification rather than hardcoded.
+The command center is intentionally dark, dense and executive-focused. The interface supports five-dimensional filtering, revenue/profit/margin views, reset behavior, loading/error/empty states, keyboard-visible focus, responsive layouts and tooltips on trend points. The pipeline-health badge is derived from artifact metadata and loaded-row verification rather than hardcoded.
 
 ## Limitations
 
