@@ -1,0 +1,32 @@
+name: Refresh Generated Analytics Artifacts
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    if: ${{ !contains(github.event.head_commit.message, 'chore: refresh generated analytics artifacts') }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install --upgrade pip
+      - run: pip install -r requirements.txt
+      - run: python -m src.generate_data
+      - run: python -m src.build_artifacts
+      - name: Commit reproducible generated artifacts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/sales.csv public/analytics.json
+          git diff --cached --quiet || git commit -m "chore: refresh generated analytics artifacts"
+          git push
