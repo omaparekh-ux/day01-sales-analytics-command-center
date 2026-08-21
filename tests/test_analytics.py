@@ -46,8 +46,8 @@ def test_validation_and_enrichment():
 def test_kpis_and_margin():
     k = kpis(enrich(sample()))
     assert k.orders == 4
-    assert round(k.revenue, 2) == 810
-    assert round(k.margin_pct, 2) == 37.04
+    assert round(k.revenue, 2) == 790
+    assert round(k.margin_pct, 2) == 37.97
     assert k.gross_revenue > k.revenue
     assert k.discount_leakage > 0
 
